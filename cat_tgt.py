@@ -36,6 +36,7 @@ def get_J():
 	J = (1.0/(2.0*m))*cost_sum_temp
 	J_array.append(J)
 
+#Gradient Descent
 for i in range(0,1500):
 	for j in range(0,len(theta)):
 		for i in range(0,m-1):
@@ -50,5 +51,4 @@ for i in range(0,1500):
 print(theta)
 
 plt.plot(J_array)
-plt.show() 
-
+plt.show()
