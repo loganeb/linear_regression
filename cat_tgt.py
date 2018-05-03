@@ -28,6 +28,7 @@ h_of_x = 0
 J = 0
 J_array = []
 
+#Determine cost function
 def get_J():
 	cost_sum_temp = 0
 	for i in range(0,m-1):
